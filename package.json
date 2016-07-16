@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "docs:prepare": "gitbook install",
+    "docs:watch": "npm run docs:prepare && gitbook serve",
+    "docs:build-linux": "npm run docs:prepare && rm -rf _book && gitbook build",
+    "docs:build": "npm run docs:prepare && del /S /Q _book && gitbook build",
+    "docs:publish-linux": "npm run docs:build-linux && cd _book && git init && git commit --allow-empty -m  \"Actualiza sitio\"  && git checkout -b gh-pages && git add . && git commit -am \"Actualiza sitio\" && git push https://github.com/ProyectoAriadna/manual-pc2.git gh-pages --force",
+    "docs:publish": "npm run docs:build && cd _book && git init && git commit --allow-empty -m  \"Actualiza sitio\"  && git checkout -b gh-pages && git add . && git commit -am \"Actualiza sitio\" && git push https://github.com/ProyectoAriadna/manual-pc2.git gh-pages --force"
+  }
+}

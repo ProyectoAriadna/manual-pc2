@@ -1,0 +1,15 @@
+{
+  "title" : "Guía para concursantes usando PC^2",
+  "description" : "Guía para los concursantes de competencias de programación usando PC^2",
+  "language": "es",
+  "root" : "./content",
+  "gitbook": "3.x.x",
+  "structure": {
+    "readme": "Inicio.md",
+    "summary": "Contenido.md"
+  },
+  "plugins" : [
+    "expandable-chapters",
+    "-sharing"
+  ]
+}
