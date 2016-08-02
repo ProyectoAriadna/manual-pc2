@@ -9,6 +9,7 @@ Guía para los Concursantes usando PC^2, el sistema para competencias de program
 Para poder compilar el libro debe tener instalado [node.js](https://nodejs.org), [Git]((https://git-scm.com/downloads)) y [Gitbook Command Line tools](https://github.com/GitbookIO/gitbook-cli)
 
 - Para revisar si el software está instalado, es posible ejecutar los siguientes comandos:
+
     ```
     $ npm -v
     $ git --version
