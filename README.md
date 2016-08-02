@@ -22,7 +22,7 @@ El proyecto incluye un conjunto de comandos que automatizan parte del proceso
 - **Para instalar o actualizar los plugins** de Gitbook
 
   ```
-  $ npm docs:prepare
+  $ npm run docs:prepare
   ```
 
 - **Para visualizar el libro**.
@@ -30,17 +30,17 @@ El proyecto incluye un conjunto de comandos que automatizan parte del proceso
     Cualquier cambio en el libro se actualiza inmediatamente en el sitio web.
 
   ```
-  $ npm docs:watch
+  $ npm run docs:watch
   ```
 
 - **Para crear el libro** (en Windows)
 
   ```
-  $ npm docs:build
+  $ npm run docs:build
   ```
 
 - **Para publicar el libro** en el sitio web de Github-Pages (en Windows)
 
   ```
-  $ npm docs:publish
+  $ npm run docs:publish
   ```
